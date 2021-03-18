@@ -51,7 +51,7 @@ namespace Task_1__
 
                     PropertyInfo[] properties = t.GetProperties();
 
-                    foreach(PropertyInfo pi in properties)
+                    foreach (PropertyInfo pi in properties)
                     {
                         if (pi.Name != null)
                         {
@@ -61,18 +61,31 @@ namespace Task_1__
 
                 }
 
-            }
+            }  
             
         }
+        private void breedListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string breed = breedListBox.SelectedItem.ToString();
+                string url = $"https://dog.ceo/api/breeds/list/all";
+                var response = client.GetAsync(url).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = response.Content.ReadAsStringAsync().Result;
+                    ImageResult ir = JsonConvert.DeserializeObject<ImageResult>(content);
+                    var pic = new BitmapImage();
 
+                    pic.BeginInit();
+                  //  pic.UriSource = new Uri(ir.Message);
+                    pic.EndInit();
 
+                    dogImage.Source = pic;
+                }
+            }
 
-
-
-
-
-
-
+        }
 
     }
 }
