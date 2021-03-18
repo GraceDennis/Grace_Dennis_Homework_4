@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_1__", "Task_1__.csproj", "{9C0FD9AD-D6CF-49F8-AFC7-E85A1C86D4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2_", "..\Task_2_\Task_2_.csproj", "{9B9ABE8A-223F-4C45-85E4-D6BD03AE50D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_3__", "..\Task_3__\Task_3__.csproj", "{2C18CA2E-5713-48F2-BE40-04E8D0036CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0FD9AD-D6CF-49F8-AFC7-E85A1C86D4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0FD9AD-D6CF-49F8-AFC7-E85A1C86D4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0FD9AD-D6CF-49F8-AFC7-E85A1C86D4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0FD9AD-D6CF-49F8-AFC7-E85A1C86D4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9ABE8A-223F-4C45-85E4-D6BD03AE50D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9ABE8A-223F-4C45-85E4-D6BD03AE50D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9ABE8A-223F-4C45-85E4-D6BD03AE50D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9ABE8A-223F-4C45-85E4-D6BD03AE50D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C18CA2E-5713-48F2-BE40-04E8D0036CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C18CA2E-5713-48F2-BE40-04E8D0036CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C18CA2E-5713-48F2-BE40-04E8D0036CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C18CA2E-5713-48F2-BE40-04E8D0036CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F20B568-32DA-4CDD-A561-BC4346EBF9BC}
+	EndGlobalSection
+EndGlobal
