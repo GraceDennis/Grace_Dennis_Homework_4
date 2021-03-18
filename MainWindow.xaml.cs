@@ -59,21 +59,6 @@ namespace Task_1__
                         }
                     }
 
-
-
-                   /* BitmapImage pic1 = new BitmapImage();
-                    pic1.BeginInit();
-                    pic1.UriSource = new Uri(r.Message[1]);
-                    pic1.EndInit();
-                    dogImage1.Source = pic1;
-
-                    BitmapImage pic2 = new BitmapImage();
-                    pic2.BeginInit();
-                    pic2.UriSource = new Uri(r.Message[2]);
-                    pic2.EndInit();
-                    dogImage1.Source = pic2;*/
-
-
                 }
 
             }
