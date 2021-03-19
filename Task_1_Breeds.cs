@@ -8,7 +8,6 @@ namespace Task_1__
 {
     class Task_1_Breeds
     {
-
         public List<string> affenpinscher { get; set; }
         public List<string> african { get; set; }
         public List<string> airedale { get; set; }
